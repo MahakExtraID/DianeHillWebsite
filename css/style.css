@@ -131,6 +131,8 @@ font-family: 'Ysabeau', sans-serif; */
   border-radius: 5px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("../images/plant1.jpeg");
+  overflow: auto;
+  height: 80%;
 }
 
 #popup1 {
@@ -177,6 +179,7 @@ font-family: 'Ysabeau', sans-serif; */
 }
 
 .popup-content {
+  overflow-y: scroll;
   padding: 3% 10%;
   color: rgb(244, 237, 213);
 }
@@ -190,10 +193,6 @@ font-family: 'Ysabeau', sans-serif; */
   font-family: "Poltawski Nowy", serif;
   font-size: large;
   width: 95%;
-}
-
-#box2-popup {
-  font-size: 0.8em;
 }
 
 .close {
@@ -301,7 +300,7 @@ td {
 /* Section 6 */
 
 .sect6 {
-  padding: 5% 4%;
+  padding: 5% 10%;
 }
 
 .contact-info {
@@ -314,25 +313,29 @@ td {
 }
 
 .contact-text {
-  color: #917fb3;
+  color: #ff6d60;
   text-decoration: underline;
 }
 
-.google-map-link {
-  margin-top: 4%;
+.contact-text-end {
+  color: #917fb3;
+  text-decoration: underline;
+  font-weight: bolder;
 }
 
 .contact-sect-img {
   align-items: center;
-  margin-top: 10%;
+  margin-top: 2%;
   margin-left: 7%;
+  margin-bottom: 5%;
   border-radius: 5%;
 }
 
-.g_map_link {
-  width: 600px;
-  height: 450px;
-  border: 0;
+#g_map_link {
+  margin-top: 4%;
+  width: 23em;
+  height: 15em;
+  border: solid 1px;
 }
 
 /* Responsive behaviour addition */
@@ -360,7 +363,7 @@ td {
 
   .nav_link {
     display: block;
-    margin: 10px 0;
+    margin: 0.3em 0;
   }
 
   #nav1 {
@@ -412,11 +415,11 @@ td {
   /* Popup box */
   .popup-box {
     display: none;
-    position: relative;
-    width: 90%;
+    /* position: relative; */
+    width: 80%;
     max-width: 600px;
     background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.5);
     border-radius: 0px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url("../images/plant1.jpeg");
@@ -451,5 +454,18 @@ td {
   .g_map_link {
     width: 50%;
     height: 50%;
+  }
+
+  .contact-text-end {
+    display: none;
+  }
+
+  .cont-1 {
+    display: none;
+  }
+
+  #g_map_link {
+    width: 12em;
+    height: 10em;
   }
 }
