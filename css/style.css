@@ -243,6 +243,11 @@ td {
   padding: 10px; /* Add padding to cells */
 }
 
+#card-5-content {
+  font-family: "Poltawski Nowy", serif;
+  font-size: large;
+}
+
 /* Section 3 */
 
 .sect3 {
@@ -469,3 +474,4 @@ td {
     height: 10em;
   }
 }
+
