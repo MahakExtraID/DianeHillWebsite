@@ -33,3 +33,12 @@ function showPopup4() {
 function closePopup4() {
   document.querySelector("#popup4").style.display = "none";
 }
+
+// JavaScript Functions for Popup Box 5
+function showPopup5() {
+  document.querySelector("#popup5").style.display = "block";
+}
+
+function closePopup5() {
+  document.querySelector("#popup5").style.display = "none";
+}
