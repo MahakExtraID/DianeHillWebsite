@@ -63,7 +63,7 @@ font-family: 'Ysabeau', sans-serif; */
   font-family: "Merriweather Sans", sans-serif;
   font-size: larger;
   color: #fde2f3;
-  width: 40%;
+  width: 50%;
   font-family: "Ysabeau", sans-serif;
   padding-left: 10%;
 }
@@ -398,7 +398,7 @@ td {
 
   /* Home section */
 
-  .s1_2_left_text {
+  .s1_2_l {
     display: block;
     width: 100%;
   }
@@ -437,10 +437,10 @@ td {
   }
 
   /* Pdf preview */
-
+  /* 
   .pdf-preview {
     display: none;
-  }
+  } */
 
   .sect5 {
     display: none;
@@ -460,10 +460,10 @@ td {
     width: 50%;
     height: 50%;
   }
-
+  /* 
   .contact-text-end {
     display: none;
-  }
+  } */
 
   .cont-1 {
     display: none;
@@ -473,5 +473,8 @@ td {
     width: 12em;
     height: 10em;
   }
-}
 
+  #mobile-display-none-part {
+    display: none;
+  }
+}
