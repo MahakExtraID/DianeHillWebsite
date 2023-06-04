@@ -68,6 +68,10 @@ font-family: 'Ysabeau', sans-serif; */
   padding-left: 10%;
 }
 
+#mobile-home-div {
+  display: none;
+}
+
 #profile-pic {
   height: 70%;
   width: 50%;
@@ -357,7 +361,7 @@ td {
   #section1-main {
     background-color: #2a2f4f;
     background-image: none;
-    height: 60em;
+    height: 100em;
     background-size: 100%;
   }
 
@@ -397,10 +401,29 @@ td {
   }
 
   /* Home section */
-
-  .s1_2_l {
+  #mobile-home-div {
     display: block;
-    width: 100%;
+  }
+
+  #profile-pic-mobile {
+    height: 70%;
+    width: 50%;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-top: 1em;
+  }
+
+  .mobile-home-div-text {
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: large;
+    color: #fde2f3;
+    width: 70%;
+    font-family: "Ysabeau", sans-serif;
+    text-align: left;
+  }
+
+  #sect7_main {
+    display: none;
   }
 
   #home_r {
