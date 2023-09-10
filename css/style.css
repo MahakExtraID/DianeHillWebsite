@@ -347,6 +347,13 @@ td {
   border: solid 1px;
 }
 
+.form_link {
+  position: relative;
+  top: 2em;
+  text-align: center;
+  width: auto;
+}
+
 /* Responsive behaviour addition */
 
 @media screen and (max-width: 920px) and (min-width: 700px) {
@@ -365,6 +372,10 @@ td {
     width: 9em;
     height: 6em;
   }
+
+  .form_link {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -373,7 +384,7 @@ td {
   #section1-main {
     background-color: #2a2f4f;
     background-image: none;
-    height: 75em;
+    height: 99em;
     background-size: 100%;
   }
 
@@ -510,6 +521,10 @@ td {
   }
 
   #mobile-display-none-part {
+    display: none;
+  }
+
+  .form_link {
     display: none;
   }
 }
