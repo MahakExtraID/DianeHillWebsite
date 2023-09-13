@@ -172,6 +172,10 @@ font-family: 'Ysabeau', sans-serif; */
   width: 50%;
 }
 
+#book_bottom_img {
+  width: 50%;
+}
+
 #box4_right {
   justify-content: right; /* Center horizontally */
   align-items: right;
@@ -241,6 +245,8 @@ font-family: 'Ysabeau', sans-serif; */
 /* Table editing */
 .table-container {
   text-align: left; /* Center align the table */
+  font-family: "Poltawski Nowy", serif;
+  font-size: large;
 }
 
 table {
@@ -361,6 +367,10 @@ td {
   width: auto;
 }
 
+.book_bottom {
+  display: none;
+}
+
 /* Responsive behaviour addition */
 
 @media screen and (max-width: 920px) and (min-width: 700px) {
@@ -383,9 +393,33 @@ td {
   .form_link {
     display: none;
   }
+
+  #box4_right {
+    display: none;
+  }
+
+  #card-5-content {
+    width: 80%;
+  }
+  .book_bottom {
+    margin-top: 1em;
+    display: block;
+  }
 }
 
 @media screen and (max-width: 700px) {
+  #box4_right {
+    display: none;
+  }
+
+  #card-5-content {
+    width: 80%;
+  }
+
+  .book_bottom {
+    margin-top: 1em;
+    display: block;
+  }
   /* Navbar section */
 
   #section1-main {
