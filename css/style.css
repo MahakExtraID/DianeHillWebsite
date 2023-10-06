@@ -378,6 +378,10 @@ td {
     display: none;
   }
 
+   #box4_img {
+    width: 40%;
+  }
+
   #section1-main {
     background-color: #2a2f4f;
     background-image: none;
