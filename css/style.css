@@ -147,8 +147,6 @@ font-family: 'Ysabeau', sans-serif; */
 }
 
 #popup1 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("../images/syracuse-university-logo-257F1FFDA0-seeklogo.com.png");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
