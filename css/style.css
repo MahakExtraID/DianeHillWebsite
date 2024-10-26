@@ -567,7 +567,8 @@ td {
     display: none;
   }
 
-  .form_link {
-    display: none;
+ .form_link {
+    display: block;
+    margin: 0 auto;
   }
 }
